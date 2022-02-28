@@ -1,0 +1,122 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.5;
+    font-size: 0.875rem;
+    background-color: aqua;
+}
+header {
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 3.8rem;
+    background-color: #1f252e;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 3.8rem;
+}
+.btn-enter-search {
+    display: flex;
+    justify-content: space-around;
+}
+.btn-vip {
+    height: 3.8rem;
+}
+.vip-btn {
+    display: block;
+    border-radius: 2rem;
+    width: 11rem;
+    height: 2.5rem;
+    margin: 0.5rem 0.1rem;
+    background-color: #009afc;
+    color: #ffff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    outline: none;
+}
+.vip-btn:hover {
+    background-color: #00cc99;
+}
+.enter {
+    margin: 0.5rem;
+    padding-top: 0.5rem;
+}
+.fas {
+    font-size: 1.1rem;
+    padding: 0.9rem;
+    margin-top: 0.3rem;
+    color: #ffff;
+    cursor: pointer;
+}
+.search-txt {
+    width: 50px;
+    display: inline;
+}
+.cancle-click {
+}
+.cancel {
+    display: none;
+}
+.search {
+    display: none;
+    text-align: right;
+}
+.search-all {
+    width: 1350px;
+    font-size: large;
+    background-color: #181d25;
+    color: #ffff;
+    margin: 0.5rem 0.2rem;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+.search-click {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #1f252e;
+}
+.btn-cancel {
+    width: 50px;
+    background-color: #1f252e;
+    color: #ffff;
+    font-size: large;
+    border: 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: #f7f7f8;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+a:hover {
+    color: #07a47f;
+}
